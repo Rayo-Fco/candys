@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: fuentelogin;
+  src: url(PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: fuentecandys;
+  src: url(Miraculous&Christmas.ttf);
+}
+
+#login{
+  float: left;
+  width: 350px;
+  height: 155px;
+}
+#logo-div{
+  width: 72%;
+  float: left;
+  height: 155px;
+}
+#logo-div img{
+  width: 380px;
+  margin: auto;
+  display:block;
+}
+#font-login{
+  font-family: fuentelogin;
+  text-decoration:none;
+}
+#font-alerta{
+  font-weight: bold;
+  font-size: 14px;
+  color: red;
+}
+#form-login{
+  border: 1px solid #b23e91;
+  background: #ffebeb;
+  border-radius: 2px;
+  width: 300px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+#button-login{
+  width: 90px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px 5px ;
+  background: #1ff3e9 ;
+  border: 2px solid  #199892 ;
+  height: 28px;
+  margin-top: 2px;
+}
+#button-login:hover{
+   background: #fc82dd ;
+   color:  #192e19 ;
+   border: 2px solid  #071b68 ;
+}
+
+#form-login tr td p{
+  margin: 0;
+}
+#input-login{
+  width: 85%;
+  border-radius: 2px;
+}
+#menu{
+  width: 30%;
+  margin-right:80px;
+  float: right;
+}
+#menu ul li {
+         display: inline;
+         padding: 2px 7px; /*Separar el texto*/
+         margin:5px; /* Separar los botones */
+         background-color:#E4E4E4; /* Color de fondo */
+
+ }
+#menu ul li:hover {
+         background-color:#CCCCCC; /* Color de fondo sobre el boton */
+         cursor: pointer; /* cambiar el aspecto del puntero */
+}
+#menau ul {
+         /* Linea para delimitar la botonera */
+         border-bottom-width: 1px;
+         border-bottom-style: solid;
+         border-bottom-color: #E4E4E4;
+}
+#menu ul a{
+  text-decoration:none;
+}
+
+#busqueda{
+
+  background:#c70039;
+  width: 700px;
+  height: 120px;
+  margin-left: 100px;
+  margin-top: 100px;
+  border-radius: 10px;
+  float: left;
+}
+#busqueda p{
+margin-left: 30px;
+margin-top: 6px;
+margin-bottom: 4px;
+font-size: 20px;
+font-family: fuentelogin;
+}
+
+#input-busqueda{
+  height: 50px;
+  width: 380px;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 2px;
+  font-size: 30px;
+  float: left;
+}
+
+
+#button-busqueda{
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px 10px ;
+  background: #41ccc6 ;
+  border: 2px solid  #199892 ;
+  height: 50px;
+  margin-top: 6px;
+  margin-left: 15px;
+}
+#button-busqueda:hover{
+   background: #1ff3e9;
+   color: #071b68 ;
+}
